@@ -1,0 +1,286 @@
+#header{
+  width: 100%;
+  height: 100vh;
+}
+#header .bg{
+  width: 100%;
+  height: 620px;
+  background: url(../imgs/headerbg.png) center/cover;
+}
+#header .contents{
+  width: 1440px;
+  margin: auto;
+  display: flex;
+}
+#header .box{
+  margin-top: 667px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header .logo{
+  margin-bottom: 40px;
+}
+#header .box p{
+  margin-bottom: 20px;
+}
+#header .mocup{
+  padding-top: 170px;
+}
+#header .mocup ul{
+  width: 945px;
+  height: 781px;
+  margin: 0 auto;
+  position: relative;
+}
+#header .mocup ul::after{
+  content: "";
+  position: absolute;
+  top: 40px; left: 39px;
+  width: 868px;
+  height: 489px;
+  background: url(../imgs/mocup-main.png) center top no-repeat;
+  background-size: cover;
+  transition: 4s;
+}
+#header .mocup ul:hover::after{
+  transition: 4s linear;
+  background-position: center bottom;
+}
+
+#overview{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 220px;
+}
+#overview .left{
+  padding-top: 235px;
+}
+#overview .right{
+  padding-top: 10px;
+}
+#overview .textBox{
+  text-align: center;
+}
+#overview .textBox p{
+  width: 650px;
+  font-size: 22px;
+  line-height: 40px;
+}
+#overview .txt1{
+  padding: 83px 0 155px 0;
+}
+
+#keywords{
+  width: 100%;
+  height: 100%;
+  padding: 230px 0;
+  color: #f1f1f1;
+}
+#keywords .bg{
+  width: 100%;
+  height: 800px;
+  background: url(../imgs/keywordsbg.png) center/cover;
+}
+#keywords .wrap{
+  width: 1314px;
+  margin: auto;
+}
+#keywords .title{
+  padding: 130px 0 40px 0;
+  border-bottom: 2px solid #f1f1f1;
+}
+#keywords .contents{
+  display: flex;
+  padding: 180px 0 0 80px;
+}
+#keywords .contents .box{
+  width: 220px;
+  height: 220px;
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+  padding-top: 85px;
+  text-align: center;
+  margin-right: 30px;
+}
+#keywords .contents .box p{
+  margin-bottom: 10px;
+}
+#keywords .arrow{
+  padding: 90px 0 0 30px;
+}
+#keywords .logo{
+  padding: 77px 0 0 60px;
+}
+
+#objective{
+  width: 100%;
+  height: 100%;
+}
+#objective .wrap{
+  width: 1460px;
+  margin: auto;
+  display: flex;
+}
+#objective .textBox{
+  width: 730px;
+  height: 600px;
+  background-color: #f6f3f1;
+  padding: 88px 0 0 70px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#objective .textBox h3{
+  font-size: 26px;
+  margin-bottom: 28px;
+  font-weight: 900;
+}
+#objective .textBox p{
+  color: #555;
+}
+#objective .textBox .text1{
+  width: 605px;
+  margin-bottom: 70px;
+}
+#objective .textBox .text2{
+  width: 580px;
+}
+#objective .textBox .text1,
+#objective .textBox .text2{
+  line-height: 30px;
+}
+
+#design{
+  width: 100%;
+  height: 100%;
+  padding: 230px 0;
+}
+
+#main{
+  width: 100%;
+  height: 3480px;
+}
+#main .bg{
+  width: 100%;
+  height: 1283px;
+  background: url(../imgs/mainbg.png) center/cover;
+}
+#main .wrap{
+  width: 1580px;
+  margin: auto;
+}
+#main .title,
+#brandstory .title{
+  text-align: center;
+  padding-top: 167px;
+}
+#main .title p{
+  font-size: 40px;
+}
+#main .title h1{
+  font-size: 60px;
+  margin: 50px 0 80px 0;
+}
+#main .contents{
+  display: flex;
+}
+#main .textBox{
+  margin-right: 12px;
+}
+#main .textBox2{
+  margin-left: 12px;
+}
+#main .txt{
+  width: 260px;
+  text-align: center;
+}
+#main .txt h2{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#main .txt p{
+  font-size: 18px;
+}
+#main .mainvisual{
+  margin: 200px 0 850px;
+}
+#main .best{
+  margin-bottom: 760px;
+}
+#main .instagram{
+  margin-bottom: 720px;
+}
+#main .about{
+  margin: 700px 0 840px;
+}
+#main .category{
+  margin-bottom: 745px;
+}
+
+#subpage{
+  width: 100%;
+  height: 100%;
+  padding: 230px 0;
+}
+#subpage > .bg{
+  width: 100%;
+  height: 6439px;
+  background: url(../imgs/subbg.png);
+}
+#subpage .wrap{
+  width: 1580px;
+  margin: auto;
+}
+#subpage .contents2{
+  padding-top: 200px;
+}
+#subpage .contents3{
+  padding-top: 340px;
+}
+#subpage .titleBox{
+  padding: 110px 0 85px;
+  display: flex;
+}
+#subpage .title{
+  margin-right: 210px;
+}
+#subpage .title > h1{
+  font-size: 60px;
+}
+#subpage .title > p{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+#subpage .txt{
+  font-size: 20px;
+  margin-top: 97px;
+}
+#subpage .storypage,
+#subpage .productspage,
+#subpage .detailpage{
+  display: flex;
+}
+#subpage .storypage,
+#subpage .productspage{
+  align-items: flex-end;
+}
+#subpage .storypage .page1,
+#subpage .productspage .page1{
+  margin: 0 20px 0 75px;
+}
+#subpage .detailpage .page2{
+  margin: 436px 0 0 20px;
+}
+#subpage .detailpage .page1:first-child img{
+  margin-bottom: 80px;
+}
+#subpage .storypage img,
+#subpage .productspage img,
+#subpage .detailpage img{
+  display: block;
+}
+
+footer img{
+  display: block;
+}
